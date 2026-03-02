@@ -1,0 +1,54 @@
+1772433608476	geckodriver	INFO	Listening on 127.0.0.1:50161
+1772433611636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50162" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHKO~1\\AppData\\Local\\Temp\\rust_mozprofileKvQLVB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1772433612241	Marionette	INFO	Marionette enabled
+1772433612425	Marionette	INFO	Listening on port 50170
+WebDriver BiDi listening on ws://127.0.0.1:50162
+Read port: 50170
+1772433612535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem, line 4842: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem, line 4842: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem, line 4842: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem, line 4842: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem, line 4842: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval, line 4842: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval, line 4842: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval, line 4842: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?client=firefox-b-d&q=resident+evil+requiem line 2 > eval line 4842 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1772433650597	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dfirefox-b-d%26q%3Dresident%2Bevil%2Brequiem%26sei%3D8jClacTAF7L-7_UPz4bI-A8&q=EgRUAs6JGPLhlM0GIjA8d9-NKxnckNnY8PXdcTp_5UZgdLdgWqq6s6Ws9kM0948tby8z7oE08a4uk17KEjoyAVJaAUM, line 1: ReferenceError: solveSimpleChallenge is not defined
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__hu.js, line 70: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gstatic.com/og/_/js/k=og.asy.en_US.6k-K0vHnXX8.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads/exm=/d=1/ed=1/rs=AA2YrTtuvHUf8lBLwkBvcELC_LGqECMklg, line 106: Script terminated by timeout at:
+_.Xc@https://www.gstatic.com/og/_/js/k=og.asy.en_US.6k-K0vHnXX8.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads/exm=/d=1/ed=1/rs=AA2YrTtuvHUf8lBLwkBvcELC_LGqECMklg:106:1200
+_.Yc@https://www.gstatic.com/og/_/js/k=og.asy.en_US.6k-K0vHnXX8.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads/exm=/d=1/ed=1/rs=AA2YrTtuvHUf8lBLwkBvcELC_LGqECMklg:62:176
+kh@https://www.gstatic.com/og/_/js/k=og.asy.en_US.6k-K0vHnXX8.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads/exm=/d=1/ed=1/rs=AA2YrTtuvHUf8lBLwkBvcELC_LGqECMklg:115:38
+b@https://www.gstatic.com/og/_/js/k=og.asy.en_US.6k-K0vHnXX8.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads/exm=/d=1/ed=1/rs=AA2YrTtuvHUf8lBLwkBvcELC_LGqECMklg:112:471
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+get@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:507285
+89083/r/936/t/7429/value/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:440891
+
+1772434103102	Marionette	INFO	Stopped listening on port 50170
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 101: Error: Unknown callback
