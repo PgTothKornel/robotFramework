@@ -1,0 +1,27 @@
+1773038286556	geckodriver	INFO	Listening on 127.0.0.1:49394
+1773038289646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49395" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHKO~1\\AppData\\Local\\Temp\\rust_mozprofilecUN0kt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1773038289952	Marionette	INFO	Marionette enabled
+1773038290109	Marionette	INFO	Listening on port 49931
+WebDriver BiDi listening on ws://127.0.0.1:49395
+Read port: 49931
+1773038290232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2780: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2780: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2780: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1773038323712	Marionette	INFO	Stopped listening on port 49931
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 101: Error: Unknown callback
