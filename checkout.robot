@@ -27,18 +27,13 @@ Checkout tesztelése
     Click Element    //*[@id="continue"]
     Sleep    1s
     Page Should Contain Element    //*[@id="checkout_info_container"]/div/form/div[1]/div[4]
-    Input Text    //*[@id="first-name"]    text=>#{<>#&<>{}đäĐ[]
-    Input Text    //*[@id="last-name"]    text=äđĐ]Đ[Đ][íłł|\Ä~ˇ°~]
-    Input Text    //*[@id="postal-code"]    text=ääđĐ[<#&<>@]
+    
     Sleep    1s
     Click Element    //*[@id="continue"]
     Click Button    //*[@id="cancel"]
     Click Element    //*[@id="shopping_cart_container"]/a
     Click Button    //*[@id="checkout"]
-    ${long_name}=    Evaluate    "A" * 100
-    Input Text    //*[@id="first-name"]    text=${long_name}
-    Input Text    //*[@id="last-name"]    text=${long_name}
-    Input Text    //*[@id="postal-code"]    text=${long_name}
+    
     Sleep    1s
     Click Element    //*[@id="continue"]
     Click Button    //*[@id="cancel"]
@@ -63,4 +58,39 @@ Checkout tesztelése
     Sleep    1s
     Click Button    //*[@id="back-to-products"]
     Sleep    1s
+    Close Browser
+
+Speciális karakterek
+    Open Browser    https://www.saucedemo.com/    firefox
+    Login with standard user
+    Click Button    //*[@id="add-to-cart-sauce-labs-backpack"]
+    Click Element    //*[@id="shopping_cart_container"]/a
+    Click Element    //*[@id="checkout"]
+    Input Text    //*[@id="first-name"]    text=>#{<>#&<>{}đäĐ[]
+    Input Text    //*[@id="last-name"]    text=äđĐ]Đ[Đ][íłł|\Ä~ˇ°~]
+    Input Text    //*[@id="postal-code"]    text=ääđĐ[<#&<>@]
+    ${url}=    Get Location
+    Sleep    1s
+    Click Element    //*[@id="continue"]
+    ${url2}=    Get Location
+    Should Be Equal As Strings    first=${url}    second=${url2}    msg="Elfogadta a hibás (kizárólag speciális karakterekből álló) nevet!"
+    Sleep    2s
+    Close Browser
+
+Túl hosszú név
+    Open Browser    https://www.saucedemo.com/    firefox
+    Login with standard user
+    Click Button    //*[@id="add-to-cart-sauce-labs-backpack"]
+    Click Element    //*[@id="shopping_cart_container"]/a
+    Click Element    //*[@id="checkout"]
+    ${long_name}=    Evaluate    "A" * 100
+    Input Text    //*[@id="first-name"]    text=${long_name}
+    Input Text    //*[@id="last-name"]    text=${long_name}
+    Input Text    //*[@id="postal-code"]    text=${long_name}
+    ${url}=    Get Location
+    Sleep    1s
+    Click Element    //*[@id="continue"]
+    ${url2}=    Get Location
+    Should Be Equal As Strings    first=${url}    second=${url2}    msg="Elfogadta a hibás (túl hosszú) nevet!"
+    Sleep    2s
     Close Browser
